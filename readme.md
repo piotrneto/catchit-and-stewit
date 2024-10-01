@@ -17,6 +17,9 @@ Catch It & Stew It is an exciting action-strategy game that puts your reflexes a
   - Time management as you balance catching and cooking
 - What sets Catch It & Stew It apart is its blend of action and cooking simulation, creating a fresh and engaging experience for players of all ages
 
+![Start Screen](assets/screenshots/start_screen.png)
+![Gameplay](assets/screenshots/playing_screen.png)
+
 ## How to Run Instructions
 
 ### Prerequisites
