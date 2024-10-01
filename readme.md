@@ -1,5 +1,9 @@
 # Catch It & Stew It (Alpha)
 
+## Project Description
+
+This game is a hobby project and an initiativefor me to learn pygame and game development using AI. The IDE I'm using for this is [Cursor](https://www.cursor.com).
+
 ## Game Description
 
 Catch It & Stew It is an exciting action-strategy game that puts your reflexes and culinary skills to the test. In this unique cooking adventure:
@@ -17,25 +21,23 @@ Catch It & Stew It is an exciting action-strategy game that puts your reflexes a
 
 ### Prerequisites
 
-- Python 3.7 or higher
-- Pygame library (version 2.0.0 or higher)
+- Python 3.7 or higher (for running from source)
+- Pygame library (version 2.0.0 or higher) (for running from source)
 
-### Installation
+### Running the Game from Source
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/your-game-repo.git
+   git clone https://github.com/piotrneto/catchit-and-stewit
    ```
 2. Navigate to the game directory:
    ```
-   cd your-game-repo
+   cd <parent-directory>/catchit-and-stewit
    ```
-3. [Any additional installation steps, such as installing dependencies]
+3. Run the game:
+   ```
+   python catchit-and-stewit-main.py
+   ```
 
-### Running the Game
-
-1. [Provide step-by-step instructions on how to start the game]
-2. [Include any command-line arguments or options if applicable]
-3. [Mention any configuration files that need to be set up]
-
-Example:
+### Running the Windows Executable
+To be added.
