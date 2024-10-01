@@ -24,11 +24,21 @@ INGREDIENT_SIZE = (64, 64)  # Change this from an integer to a tuple
 
 def load_high_scores():
     global high_scores
+    high_scores = []
     if os.path.exists(HIGH_SCORES_FILE):
         with open(HIGH_SCORES_FILE, "r") as file:
             reader = csv.reader(file)
-            high_scores = [row for row in reader]
-    high_scores = sorted(high_scores, key=lambda x: int(x[1]), reverse=True)[:MAX_HIGH_SCORES]
+            for row in reader:
+                if len(row) == 2:
+                    name, score = row
+                    try:
+                        high_scores.append([name, int(score)])
+                    except ValueError:
+                        continue  # Skip rows with invalid scores
+    
+    # Sort the high scores only if the list is not empty
+    if high_scores:
+        high_scores = sorted(high_scores, key=lambda x: x[1], reverse=True)[:MAX_HIGH_SCORES]
 
 def save_high_scores():
     with open(HIGH_SCORES_FILE, "w", newline='') as file:
@@ -67,8 +77,8 @@ def draw_playing_state(screen, player_sprite, player_x, player_y, ingredient_spr
     screen.blit(rotated_ingredient, rotated_rect.topleft)
 
     # Draw score and lives
-    score_text = font.render(f"Score: {score}", True, (255, 255, 255))  # Changed to white for better visibility
-    lives_text = font.render(f"Lives: {lives}", True, (255, 255, 255))  # Changed to white for better visibility
+    score_text = font.render(f"Score: {score}", True, (255, 145, 77))
+    lives_text = font.render(f"Lives: {lives}", True, (12, 48, 59))
     screen.blit(score_text, (10, 10))
     screen.blit(lives_text, (width - 120, 10))
 
@@ -145,10 +155,19 @@ def draw_start_screen(screen, font, width, height):
     
     return start_button, exit_button
 
+# Load and set the game icon
+icon = pygame.image.load(os.path.join("assets", "sprites", "cooking-pot-without-lid-1.png"))
+pygame.display.set_icon(icon)
+
 # Set up the display
 width, height = 1280, 720
 screen = pygame.display.set_mode((width, height))
-pygame.display.set_caption("Simple Catch Game")
+pygame.display.set_caption("Catchit & Stewit (Alpha)")
+
+# Set up the display
+width, height = 1280, 720
+screen = pygame.display.set_mode((width, height))
+pygame.display.set_caption("Catchit & Stewit (Alpha)")
 
 # Colors
 WHITE = (255, 255, 255)
