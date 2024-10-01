@@ -1,4 +1,4 @@
-# Catch It & Stew It (Alpha)
+# Catchit & Stewit (Alpha)
 
 ## Project Description
 
