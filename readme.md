@@ -15,7 +15,7 @@ Catchit & Stewit is an exciting arcade game that puts your reflexes and culinary
   - Strategic decision-making on which ingredients to prioritize
   - A variety of stew recipes to master, each with different difficulty levels
   - Time management as you balance catching and cooking
-- What sets Catch It & Stew It apart is its blend of action and cooking simulation, creating a fresh and engaging experience for players of all ages
+- What sets Catchit & Stewit apart is its blend of action and cooking simulation, creating a fresh and fun experience for players of all ages
 
 ## How to Run Instructions
 
