@@ -6,7 +6,7 @@ This game is a hobby project and an initiative for me to learn pygame and game d
 
 ## Game Description
 
-Catchit & Stewit is an exciting action-strategy game that puts your reflexes and culinary skills to the test. In this unique cooking adventure:
+Catchit & Stewit is an exciting arcade game that puts your reflexes and culinary skills to the test. In this unique cooking adventure:
 
 - Players take on the role of a chef in a whimsical kitchen world
 - The main objective is to catch various ingredients as they fall from the sky and use them to create delicious stews
