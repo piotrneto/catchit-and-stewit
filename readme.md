@@ -1,12 +1,12 @@
-# Catch It & Stew It (Alpha)
+# Catchit & Stewit (Alpha)
 
 ## Project Description
 
-This game is a hobby project and an initiativefor me to learn pygame and game development using AI. The IDE I'm using for this is [Cursor](https://www.cursor.com).
+This game is a hobby project and an initiative for me to learn pygame and game development using AI. The IDE I'm using for this is [Cursor](https://www.cursor.com).
 
 ## Game Description
 
-Catch It & Stew It is an exciting action-strategy game that puts your reflexes and culinary skills to the test. In this unique cooking adventure:
+Catchit & Stewit is an exciting arcade game that puts your reflexes and culinary skills to the test. In this unique cooking adventure:
 
 - Players take on the role of a chef in a whimsical kitchen world
 - The main objective is to catch various ingredients as they fall from the sky and use them to create delicious stews
@@ -15,7 +15,7 @@ Catch It & Stew It is an exciting action-strategy game that puts your reflexes a
   - Strategic decision-making on which ingredients to prioritize
   - A variety of stew recipes to master, each with different difficulty levels
   - Time management as you balance catching and cooking
-- What sets Catch It & Stew It apart is its blend of action and cooking simulation, creating a fresh and engaging experience for players of all ages
+- What sets Catchit & Stewit apart is its blend of action and cooking simulation, creating a fresh and fun experience for players of all ages
 
 ![Start Screen](assets/screenshots/start_screen.png)
 ![Gameplay](assets/screenshots/playing_screen.png)
