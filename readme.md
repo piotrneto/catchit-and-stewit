@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This game is a hobby project and an initiative for me to learn pygame and game development using AI. The IDE I'm using for this is [Cursor](https://www.cursor.com).
+This game is a hobby project and an initiative for me to learn pygame and game development assisted by AI. I'm using the AI powered and increasingly popular IDE [Cursor](https://www.cursor.com) for this project.
 
 ## Game Description
 
