@@ -35,7 +35,7 @@ Catchit & Stewit is an exciting arcade game that puts your reflexes and culinary
    ```
 2. Navigate to the game directory:
    ```
-   cd <parent-directory>/catchit-and-stewit
+   cd <parent-directory-path>/catchit-and-stewit
    ```
 3. Run the game:
    ```
